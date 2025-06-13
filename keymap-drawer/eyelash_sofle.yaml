@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  DFLT:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -59,13 +59,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - FN_LAYER
+  - FN
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - RETURN
-  - {t: CODELAYER, h: toggle}
+  - {t: CODE, h: toggle}
   - $$mdi:backspace-reverse-outline$$
-  FN_LAYER:
+  FN:
   - F11
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  CODELAYER:
+  CODE:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -193,7 +193,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - RETURN
-  - {t: CODELAYER, h: toggle}
+  - {t: CODE, h: toggle}
   - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [31, 33]
