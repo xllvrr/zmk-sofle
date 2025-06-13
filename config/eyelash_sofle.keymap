@@ -62,11 +62,11 @@
 
         layer1 {
             bindings = <
-&kp F11     &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10  &kp F12
-&trans      &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &mmv MOVE_DOWN   &trans     &kp END   &kp UP    &kp HOME   &trans   &trans
-&trans      &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
-&trans      &trans  &trans     &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans   &trans
-&kp C_MUTE  &trans  &trans     &trans     &trans     &trans    &none            &trans     &trans    &trans    &trans     &trans
+&kp F11     &kp F1  &kp F2     &kp F3       &kp F4       &kp F5         &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10  &kp F12
+&trans      &trans  &mkp LCLK  &mkp MCLK    &mkp RCLK    &trans         &mmv MOVE_DOWN   &trans     &kp END   &kp UP    &kp HOME   &trans   &trans
+&trans      &trans  &trans     &trans       &trans       &trans         &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans      &trans  &trans     &trans       &trans       &trans         &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans   &trans
+&kp C_MUTE  &trans  &trans     &kp C_POWER  &kp C_RESET  &kp C_SLEEP    &none            &trans     &trans    &trans    &trans     &trans
             >;
 
             display-name = "FN";
