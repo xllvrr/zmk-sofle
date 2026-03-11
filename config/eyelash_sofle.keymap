@@ -106,8 +106,6 @@
 &kp GRAVE          &kp Z      &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA  &kp DOT    &kp FSLH    &kp EQUAL
 &kp C_MUTE         &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LSHFT  &kp SPACE    &tog 1           &kp SPACE  &kp BACKSPACE  &kp ENTER  &kp RCTRL  &kp DELETE
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };
